@@ -1,0 +1,61 @@
+/* Simple Navbar CSS */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  z-index: 1000;
+}
+
+.navbar-left .logo-btn {
+  background: none;
+  border: none;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-left .logo-btn:hover {
+  color: #ff6347;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #444;
+  padding: 10px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.logo:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 8px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #555;
+}
+
+.navbar-right button {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  color: white;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+.navbar-right button:hover {
+  color: #ff6347;
+}

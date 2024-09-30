@@ -1,0 +1,47 @@
+.translation-component {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 45%;
+}
+
+.translation-component h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.translation-component label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.translation-component select,
+.translation-component textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.translation-component button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.translation-component button:hover {
+  background-color: #45a049;
+}
+
+.translated-text {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
